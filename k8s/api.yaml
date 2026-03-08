@@ -1,0 +1,46 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: gesture-api
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: gesture-api
+  template:
+    metadata:
+      labels:
+        app: gesture-api
+    spec:
+      containers:
+        - name: api
+          image: interview_project_viconco-api:latest
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 8000
+          env:
+            - name: MLFLOW_TRACKING_URI
+              value: http://mlflow-service:5000
+          volumeMounts:
+            - mountPath: /app/data
+              name: data-vol
+      volumes:
+        - name: data-vol
+          hostPath:
+            path: /home/docker/data    # ✅ Writable inside Minikube
+            type: Directory
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: gesture-api-service
+spec:
+  type: NodePort
+  selector:
+    app: gesture-api
+  ports:
+    - protocol: TCP
+      port: 8000
+      targetPort: 8000
+      nodePort: 30080
+

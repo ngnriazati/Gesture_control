@@ -1,0 +1,13 @@
+# Ignore virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# Ignore local data and models (handled via volumes)
+data/
+mlruns/
+mlartifacts/
+
+# Ignore OS files
+.DS_Store
+
