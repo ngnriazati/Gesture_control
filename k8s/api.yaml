@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: api
-          image: interview_project_viconco-api:latest
+          image: gusture_control-api:latest
           imagePullPolicy: Never
           ports:
             - containerPort: 8000
@@ -27,7 +27,7 @@ spec:
       volumes:
         - name: data-vol
           hostPath:
-            path: /home/docker/data    # ✅ Writable inside Minikube
+            path: /home/docker/data
             type: Directory
 ---
 apiVersion: v1

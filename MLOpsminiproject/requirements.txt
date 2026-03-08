@@ -1,9 +1,0 @@
-torch
-torchvision
-numpy
-pandas
-mlflow
-mediapipe==0.10.14
-Pillow
-boto3
-opencv-python

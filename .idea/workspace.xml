@@ -8,6 +8,8 @@
       <change afterPath="$PROJECT_DIR$/../chatbot/bluetooth.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../chatbot/news.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLOpsminiproject/src/data_prep.py" beforeDir="false" afterPath="$PROJECT_DIR$/MLOpsminiproject/src/data_prep.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s/api.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s/api.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +60,7 @@
       <workItem from="1765010574335" duration="1432000" />
       <workItem from="1772745522676" duration="1342000" />
       <workItem from="1772971743856" duration="1656000" />
-      <workItem from="1772975970264" duration="1908000" />
+      <workItem from="1772975970264" duration="2349000" />
     </task>
     <servers />
   </component>
