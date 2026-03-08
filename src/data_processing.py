@@ -2,8 +2,8 @@ import pandas as pd
 import numpy as np
 import os
 
-RAW = "/Users/negin/Desktop/interview_project_viconCo/data/raw/landmarks_log.csv"
-OUT = "/Users/negin/Desktop/interview_project_viconCo/data/processed/feat.csv"
+RAW = "/Users/negin/Desktop/gusture_control/data/raw/landmarks_log.csv"
+OUT = "/Users/negin/Desktop/gusture_control/data/processed/feat.csv"
 os.makedirs("data/processed", exist_ok=True)
 
 # Load the raw data

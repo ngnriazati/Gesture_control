@@ -3,7 +3,7 @@ from pydantic import BaseModel
 import numpy as np
 import joblib
 
-# MODEL_PATH = "/Users/negin/Desktop/interview_project_viconCo/data/training/gesture_rf.pkl"
+
 MODEL_PATH = 'data/training/gesture_rf.pkl'
 
 

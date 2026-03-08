@@ -8,8 +8,8 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report, accuracy_score, confusion_matrix
 import joblib
 
-DATA = "/Users/negin/Desktop/interview_project_viconCo/data/processed/feat.csv"
-MODEL = "/Users/negin/Desktop/interview_project_viconCo/data/training/gesture_rf.pkl"
+DATA = "/Users/negin/Desktop/igusture_control/data/processed/feat.csv"
+MODEL = "/Users/negin/Desktop/gusture_control/data/training/gesture_rf.pkl"
 os.makedirs("data/models", exist_ok=True)
 
 # --- Load dataset ---

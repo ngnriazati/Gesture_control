@@ -7,9 +7,9 @@
     <list default="true" id="e95bb674-7c18-4317-bced-8479df7c781d" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/../chatbot/bluetooth.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../chatbot/news.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MLOpsminiproject/src/data_prep.py" beforeDir="false" afterPath="$PROJECT_DIR$/MLOpsminiproject/src/data_prep.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/k8s/api.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s/api.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inference_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inference_app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_processing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hand_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/hand_game.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -27,20 +27,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.hand_game.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/negin/Desktop/gusture_control",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.hand_game.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/negin/Desktop/gusture_control&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -60,7 +60,7 @@
       <workItem from="1765010574335" duration="1432000" />
       <workItem from="1772745522676" duration="1342000" />
       <workItem from="1772971743856" duration="1656000" />
-      <workItem from="1772975970264" duration="2349000" />
+      <workItem from="1772975970264" duration="2698000" />
     </task>
     <servers />
   </component>

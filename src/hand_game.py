@@ -6,9 +6,9 @@ import numpy as np
 WIDTH, HEIGHT = 1000, 1000
 SPEED = 5
 TURN_SPEED = 5
-SHIP_IMG_PATH = "/Users/negin/Desktop/interview_project_viconCo/data/raw/tiefighter_black_bg.png"
-TARGET_IMG_PATH = "/Users/negin/Desktop/interview_project_viconCo/data/raw/xwing_bg.png"
-CSV_PATH = "/Users/negin/Desktop/interview_project_viconCo/data/raw/landmarks_log.csv"
+SHIP_IMG_PATH = "/Users/negin/Desktop/gusture_control/data/raw/tiefighter_black_bg.png"
+TARGET_IMG_PATH = "/Users/negin/Desktop/gusture_control/data/raw/xwing_bg.png"
+CSV_PATH = "/Users/negin/Desktop/gusture_control/data/raw/landmarks_log.csv"
 
 # --- INIT ---
 pygame.init()
